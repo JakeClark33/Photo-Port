@@ -3,10 +3,11 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
-const [contactSelected, setContactSelected] = useState(false);
+
 
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
       name: 'commercial',
